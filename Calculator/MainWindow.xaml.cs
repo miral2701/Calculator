@@ -194,6 +194,7 @@ namespace Calculator
             symbol_count = 0;
         }
 
+        
         private void CE_button_Click(object sender, RoutedEventArgs e)
         {
             final_text.Remove(Array.LastIndexOf(final_text.ToString().Split('-','+','/','*'),text.ToString())+symbol_count,text.Length);
